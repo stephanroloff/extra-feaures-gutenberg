@@ -23,7 +23,7 @@ allAnimationsClassNames.forEach(className => {
             isElementInBrowser({
                 element: selectedElement, 
                 // rootMargin: '-10%',        
-                rootMargin: '0px 0px -500px 0px', // arriba, derecha, abajo, izquierda
+                rootMargin: '0px 0px -100px 0px', // arriba, derecha, abajo, izquierda
                 activateFunctionWhenElementIsInsideBrowserWindow: addingInViewportClass
             });
         }
